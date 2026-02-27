@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: grid;
+      grid-template-areas:
+    "header header header header"
+    "Title Year Long Popularity"
+    "chicago Cy Cl Cg"
+    "Hamilton HAy HAl HAg"
+    "Gatsby Gy Gl Gg"
+    "BMC By Bl Bg"
+    "Heathers HEy HEl HEg"
+    "NPMD Ny Nl Ng"
+    "Outsiders Oy Ol Og";
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2px;
+      background-color: black;
+      padding: 3px;
+    }
+    .container div {
+      background-color: white;
+      padding: 5px;
+    }
+    .container div.header {
+      grid-area: header;
+      text-align: center;
+    }
+
+    .container div.Title {
+        grid-area: Title;
+    }
+
+    .container div.Year {
+      grid-area: Year;
+    }
+
+    .container div.Long {
+      grid-area: Long;
+    }
+
+    .container div.Popularity {
+      grid-area: Popularity;
+    }
+
+    .container div.Chicago {
+        background-color: darkred;
+      grid-area: chicago;
+    }
+    .container div.Cy {
+        grid-area: Cy;
+    }.container div.Cl {
+         grid-area: Cl;
+     }.container div.Cg {
+          grid-area: Cg;
+      }
+    .container div.Hamilton {
+        background-color:darkgoldenrod;
+      grid-area: Hamilton;
+    }
+    .container div.HAy {
+        grid-area: HAy;
+    }
+    .container div.HAl {
+        grid-area: HAl;
+    }
+    .container div.HAg {
+        grid-area: HAg;
+    }
+
+    .container div.Gatsby {
+        background-color:darkgreen;
+      grid-area: Gatsby;
+    }
+    .container div.Gl {
+        grid-area: Gl;
+    }
+    .container div.Gy {
+        grid-area: Gy;
+    }
+    .container div.Gg {
+        grid-area: Gg;
+    }
+
+    .container div.Outsiders {
+        background-color:steelblue;
+      grid-area: Outsiders;
+    }
+    .container div.Ol {
+        grid-area: Ol;
+    }
+    .container div.Oy {
+        grid-area: Oy;
+    }
+    .container div.Og {
+        grid-area: Og;
+    }
+    .container div.BMC {
+        background-color:blueviolet;
+      grid-area: BMC;
+
+    }
+
+    .container div.Bl {
+        grid-area: Bl;
+    }
+    .container div.By {
+        grid-area: By;
+    }
+    .container div.Bg {
+        grid-area: Bg;
+    }
+    .container div.Heathers {
+        background-color:red;
+      grid-area: Heathers;
+    }
+    .container div.HEl {
+        grid-area: HEl;
+    }
+    .container div.HEy {
+        grid-area: HEy;
+    }
+    .container div.HEg {
+        grid-area: HEg;
+    }
+
+    .container div.NPMD {
+        grid-area: NPMD;
+        background-color: darkblue;
+    }
+    .container div.Nl {
+        grid-area: Nl;
+    }
+    .container div.Ny {
+        grid-area: Ny;
+    }
+    .container div.Ng {
+        grid-area: Ng;
+    }
+    .container div.space {
+      grid-area: space;
+    }
+
+
+  </style>
+</head>
+<body>
+
+
+
+<div class="container">
+
+
+  <div class="header"><h2>Musicals!</h2></div>
+
+  <div class="Title"><h2>title</h2></div>
+  <div class="Year"><h2>Year Of Relase</h2></div>
+  <div class="Long"><h2>Legenth</h2></div>
+  <div class="Popularity"><h2> Gross Profits</h2></div>
+<!--    Chiago Info-->
+        <div class="Chicago"><h3>Chicago</h3></div>
+  <div class="Cy"><h3>1975</h3></div>
+  <div class="Cl"><h3>2.5</h3></div>
+  <div class="Cg"><h3>645315</h3></div>
+  <!--    Hamilton Info-->
+          <div class="Hamilton"><h3>Hamilton</h3></div>
+    <div class="HAy"><h3>2015</h3></div>
+    <div class="HAl"><h3>3</h3></div>
+    <div class="HAg"><h3>2479809</h3></div>
+  <!--    Gatsby Info-->
+        <div class="Gatsby"><h3>The Great Gatsby</h3></div>
+    <div class="Gy"><h3>2025</h3></div>
+    <div class="Gl"><h3>2.5</h3></div>
+    <div class="Gg"><h3>1096207</h3></div>
+  <!--    Outsiders Info-->
+        <div class="Outsiders"><h3>The Outsiders</h3></div>
+    <div class="Oy"><h3>2023</h3></div>
+    <div class="Ol"><h3>2.5</h3></div>
+    <div class="Og"><h3>1237404</h3></div>
+  <!--    Bmc Info-->
+          <div class="BMC"><h3>Be More chill</h3></div>
+    <div class="By"><h3>2015</h3></div>
+    <div class="Bl"><h3>2.5</h3></div>
+    <div class="Bg"><h3>713254</h3></div>
+  <!--    Heathers Info-->
+         <div class="Heathers"><h3>Heathers</h3></div>
+    <div class="HEy"><h3>2023</h3></div>
+    <div class="HEl"><h3>2.5</h3></div>
+    <div class="HEg"><h3>424027</h3></div>
+  <!--    NMPD Info-->
+      <div class="NPMD"><h3>Nerdy Prudes Must Die</h3></div>
+    <div class="Ny"><h3>2023</h3></div>
+    <div class="Nl"><h3>2.5</h3></div>
+    <div class="Ng"><h3>213553</h3></div>
+
+
+
+</div>
+
+</body>
+<style>
+    h2{color:green;font-family:"Tiro Devanagari Marathi"}
+    h3{font-family:"Academy Engraved LET"}
+</style>
+</html>

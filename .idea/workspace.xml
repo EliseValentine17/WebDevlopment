@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7584e14f-814b-4311-b32f-55bfce04f6cc" name="Changes" comment="More CSS">
+      <change afterPath="$PROJECT_DIR$/Bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artsy/ladybug.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebDevlopment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old_Index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EliseValentine17 &lt;happyvalentiesdaytoyou@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EliseValentine17&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EliseValentine17/WebDevlopment.git&quot;,
+    &quot;accountId&quot;: &quot;1cf2c34a-9a1c-4749-a030-2e7b6f23cca1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39WvhEcvJhq4VeQQZy4eUQV8nXo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7584e14f-814b-4311-b32f-55bfce04f6cc" name="Changes" comment="" />
+      <created>1770824758466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770824758466</updated>
+      <workItem from="1770824759483" duration="36372000" />
+      <workItem from="1771156819127" duration="232366000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Project!">
+      <option name="closed" value="true" />
+      <created>1770826135417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770826135417</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Project!">
+      <option name="closed" value="true" />
+      <created>1770826306863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770826306863</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Project!">
+      <option name="closed" value="true" />
+      <created>1770826338472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770826338472</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Project!">
+      <option name="closed" value="true" />
+      <created>1770826353866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770826353866</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Made My First Page!!!!!!">
+      <option name="closed" value="true" />
+      <created>1770827182772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770827182772</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Made My First Page!!!!!!">
+      <option name="closed" value="true" />
+      <created>1770827198861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770827198862</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Made My First Page!!!!!!">
+      <option name="closed" value="true" />
+      <created>1770920006620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770920006620</updated>
+    </task>
+    <task id="LOCAL-00008" summary="More Codeing!!">
+      <option name="closed" value="true" />
+      <created>1770924180147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770924180147</updated>
+    </task>
+    <task id="LOCAL-00009" summary="More Codeing!!!">
+      <option name="closed" value="true" />
+      <created>1770924336436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770924336436</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Class">
+      <option name="closed" value="true" />
+      <created>1770925089758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770925089758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW">
+      <option name="closed" value="true" />
+      <created>1771425975985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771425975985</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Project">
+      <option name="closed" value="true" />
+      <created>1771467779567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771467779567</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Project">
+      <option name="closed" value="true" />
+      <created>1771518730745</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771518730745</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Project">
+      <option name="closed" value="true" />
+      <created>1771519265805</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771519265805</updated>
+    </task>
+    <task id="LOCAL-00015" summary="More CSS">
+      <option name="closed" value="true" />
+      <created>1772043363273</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772043363274</updated>
+    </task>
+    <task id="LOCAL-00016" summary="More CSS">
+      <option name="closed" value="true" />
+      <created>1772200731010</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772200731010</updated>
+    </task>
+    <task id="LOCAL-00017" summary="More CSS">
+      <option name="closed" value="true" />
+      <created>1772468968239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772468968239</updated>
+    </task>
+    <task id="LOCAL-00018" summary="More CSS">
+      <option name="closed" value="true" />
+      <created>1772725098832</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772725098832</updated>
+    </task>
+    <task id="LOCAL-00019" summary="More CSS">
+      <option name="closed" value="true" />
+      <created>1772725642006</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772725642006</updated>
+    </task>
+    <task id="LOCAL-00020" summary="More CSS">
+      <option name="closed" value="true" />
+      <created>1772726347926</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772726347926</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Project!" />
+    <MESSAGE value="Made My First Page!!!!!" />
+    <MESSAGE value="Made My First Page!!!!!!" />
+    <MESSAGE value="More Codeing!!" />
+    <MESSAGE value="More Codeing!!!" />
+    <MESSAGE value="Class" />
+    <MESSAGE value="HW" />
+    <MESSAGE value="Project" />
+    <MESSAGE value="More CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="More CSS" />
+  </component>
+</project>

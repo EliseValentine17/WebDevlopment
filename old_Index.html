@@ -16,6 +16,19 @@
     <img src="Beautiful-Flowers.jpg" width="720" height="820">
     <p style="color:pink;font-size:160%;">Here are some flowers!</p>
     <p style="color:hotpink; text-align:center; font-size:300%"> <sub>ele<sub>ctr<sub>oma</sub>gne</sub>tic</sub> </p>
-
+<h1 id="header" onclick="changeHeader()" >this is text</h1>
 </body>
+
+<script>
+   // let x=5;
+//console.log("hello!");//
+    //console.log(x);//
+   // let y="3";//
+   // console.log(y+x);//
+function changeHeader(){
+    let test= document.getElementById("header");
+    console.log(test);
+    test.innerText="this is pink text";
+    test.style.color="pink";}
+</script>
 </html>

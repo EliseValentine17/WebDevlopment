@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Madlibs</title>
+</head>
+<body>
+<h1>Madlibs</h1>
+<div id=" entry">
+    <h2>Test Page</h2>
+    <p class="inputs">Noun:<input type="text" id="animalInput"></p>
+    <p class="inputs">Name:<input type="text" id="nameInput"></p>
+    <p class="inputs">Verb:<input type="text" id="actionInput"></p>
+    <p class="inputs">Plural Noun:<input type="text" id="plantInput"></p>
+    <p class="inputs">Mood:<input type="text" id="moodInput"></p>
+    <p class="inputs">Plural Noun:<input type="text" id="joyInput"></p>
+    <p class="inputs">Verb:<input type="text" id="readInput"></p>
+    <p class="inputs"> Noun:<input type="text" id="booksInput"></p>
+    <p class="inputs">Verb:<input type="text" id="hobbyInput"></p>
+    <p class="inputs">Natural Disaster:<input type="text" id="disasterInput"></p>
+    <p class="inputs">Past Tense Motion Verb:<input type="text" id="motionInput"></p>
+    <p class="inputs">location:<input type="text" id="locationInput"></p>
+    <p class="inputs">Plural Noun:<input type="text" id="friendsInput"></p>
+    <p class="inputs">Adjctive:<input type="text" id="adj1Input"></p>
+    <p class= "inputs"> Noun: <input type= "text" id="friend1Input"></p>
+    <p class= "inputs"> Adjective: <input type= "text" id="greenfriendInput"></p>
+    <p class= "inputs"> Noun: <input type= "text" id="friend2Input"></p>
+    <p class= "inputs"> Adjctive: <input type= "text" id="adjpinkInput"></p>
+    <p class="inputs">Adjctive:<input type="text" id="adj2Input"></p>
+    <p class="inputs">Relationship:<input type="text" id="relationInput"></p>
+    <p class="inputs">-ing Verb:<input type="text" id="thingInput"></p>
+    <p class="inputs">Noun:<input type="text" id="rainbowInput"></p>
+    <button onclick="madlibs()">Submit</button>
+
+
+</div>
+<div id="results">
+
+    <p style="color:deeppink; font-family: courier; text-align: center">Once, there was a <span id="animalOut">(animal)</span>
+        named <span id="NameOut">(Name)</span>.
+        She would <span id="actionOut">(verb)</span> to all the
+        <span id="plantOut">(nouns)</span> in the land, and she would spread <span id="moodOut">(mood)</span> and
+        <span id="joyOut">(noun)</span>.
+        She liked to <span id="readOut"> (verb) </span>
+        <span id="booksOut">(noun)</span> and <span id="hobbyOut">(hobby)</span>. Until one day, she got caught in a
+        <span id= "disasterOut">(disaster)</span> and <span id= "motionOut"> (motion verb) </span> all the way to
+        <span id="locationOut">(location)</span>. There, she met many other <span id= "friendsOut">(noun)</span>,
+        like a <span id="adj1Out">(adj)</span> <span id= "friend1Out">(noun)</span>,
+        and a <span id= "greenfriendOut">(adj)</span> <span id= "friend2Out">(noun)</span>.
+
+        She met a <span id="adjpinkOut">(adj)</span> and <span id="adj2Out">(adj)</span> butterfly and they became
+        <span id="relationOut">(relationship) </span> forever,
+        since they both loved <span id="thingOut">(thing)</span> and <span id="rainbowOut">(noun)</span> and public speaking.</p>
+</div>
+</body>
+<style>
+    h1{
+        color: lightseagreen;
+    font-family: Copperplate;
+    }
+    .inputs{
+        color:green;
+        font-family: Rockwell;
+    }
+</style>
+
+<script>
+    function madlibs() {
+
+        let animalInput = document.getElementById("animalInput");
+        document.getElementById("animalOut").innerHTML = animalInput.value;
+
+        let nameInput = document.getElementById("nameInput");
+        document.getElementById("NameOut").innerHTML = nameInput.value;
+
+        let plantInput = document.getElementById("plantInput");
+        document.getElementById("plantOut").innerHTML = plantInput.value;
+
+        let actionInput = document.getElementById("actionInput");
+        document.getElementById("actionOut").innerHTML = actionInput.value;
+
+        let hobbyInput = document.getElementById("hobbyInput");
+ document.getElementById("hobbyOut").innerHTML = hobbyInput.value;
+
+        let disasterInput = document.getElementById("disasterInput");
+        document.getElementById("disasterOut").innerHTML = disasterInput.value;
+
+        let motionInput = document.getElementById("motionInput");
+        document.getElementById("motionOut").innerHTML = motionInput.value;
+
+        let moodInput = document.getElementById("moodInput");
+        document.getElementById("moodOut").innerHTML = moodInput.value;
+
+        let joyInput = document.getElementById("joyInput");
+        document.getElementById("joyOut").innerHTML = joyInput.value;
+
+        let readInput = document.getElementById("readInput");
+        document.getElementById("readOut").innerHTML = readInput.value;
+
+        let booksInput = document.getElementById("booksInput");
+        document.getElementById("booksOut").innerHTML = booksInput.value;
+
+        let locationInput = document.getElementById("locationInput");
+        document.getElementById("locationOut").innerHTML = locationInput.value;
+
+        let friendsInput = document.getElementById("friendsInput");
+        document.getElementById("friendsOut").innerHTML = friendsInput.value;
+
+        let adj1Input = document.getElementById("adj1Input");
+        document.getElementById("adj1Out").innerHTML = adj1Input.value;
+
+        let friend1Input = document.getElementById("friend1Input");
+        document.getElementById("friend1Out").innerHTML = friend1Input.value;
+
+        let greenfriendInput = document.getElementById("greenfriendInput");
+        document.getElementById("greenfriendOut").innerHTML = greenfriendInput.value;
+
+        let friend2Input = document.getElementById("friend2Input");
+        document.getElementById("friend2Out").innerHTML = friend2Input.value;
+
+        let adjpinkInput = document.getElementById("adjpinkInput");
+        document.getElementById("adjpinkOut").innerHTML =adjpinkInput.value;
+
+        let adj2Input = document.getElementById("adj2Input");
+        document.getElementById("adj2Out").innerHTML = adj2Input.value;
+
+        let relationInput = document.getElementById("relationInput");
+        document.getElementById("relationOut").innerHTML = relationInput.value;
+
+        let thingInput = document.getElementById("thingInput");
+        document.getElementById("thingOut").innerHTML = thingInput.value;
+
+        let rainbowInput = document.getElementById("rainbowInput");
+        document.getElementById("rainbowOut").innerHTML = rainbowInput.value;
+
+    }
+</script>
+</html>

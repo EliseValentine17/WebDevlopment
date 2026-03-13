@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Madlibs</h1>
-<div id=" entry">
+<div id="libs">
     <h2>Test Page</h2>
     <p class="inputs">Noun:<input type="text" id="animalInput"></p>
     <p class="inputs">Name:<input type="text" id="nameInput"></p>
@@ -29,28 +29,36 @@
     <p class="inputs">Adjctive:<input type="text" id="adj2Input"></p>
     <p class="inputs">Relationship:<input type="text" id="relationInput"></p>
     <p class="inputs">-ing Verb:<input type="text" id="thingInput"></p>
-    <p class="inputs">Noun:<input type="text" id="rainbowInput"></p>
+    <p class="inputs"> Plural Noun:<input type="text" id="rainbowInput"></p>
     <button onclick="madlibs()">Submit</button>
 
 
 </div>
-<div id="results">
+<div id="wholetext" >
 
-    <p style="color:deeppink; font-family: courier; text-align: center">Once, there was a <span id="animalOut">(animal)</span>
-        named <span id="NameOut">(Name)</span>.
-        She would <span id="actionOut">(verb)</span> to all the
-        <span id="plantOut">(nouns)</span> in the land, and she would spread <span id="moodOut">(mood)</span> and
-        <span id="joyOut">(noun)</span>.
-        She liked to <span id="readOut"> (verb) </span>
-        <span id="booksOut">(noun)</span> and <span id="hobbyOut">(hobby)</span>. Until one day, she got caught in a
-        <span id= "disasterOut">(disaster)</span> and <span id= "motionOut"> (motion verb) </span> all the way to
-        <span id="locationOut">(location)</span>. There, she met many other <span id= "friendsOut">(noun)</span>,
-        like a <span id="adj1Out">(adj)</span> <span id= "friend1Out">(noun)</span>,
-        and a <span id= "greenfriendOut">(adj)</span> <span id= "friend2Out">(noun)</span>.
-
-        She met a <span id="adjpinkOut">(adj)</span> and <span id="adj2Out">(adj)</span> butterfly and they became
-        <span id="relationOut">(relationship) </span> forever,
-        since they both loved <span id="thingOut">(thing)</span> and <span id="rainbowOut">(noun)</span> and public speaking.</p>
+    <p  style="color:deeppink; font-family: courier; text-align: center">Once, there was a
+        <span class="outputs" id="animalOut">(animal)</span> named
+        <span class="outputs" id="NameOut">(Name)</span>. She would
+        <span class="outputs" id="actionOut">(verb)</span> to all the
+        <span class="outputs" id="plantOut">(nouns)</span> in the land, and she would spread
+        <span class="outputs" id="moodOut">(mood)</span> and
+        <span class="outputs" id="joyOut">(noun)</span>. She liked to
+        <span class="outputs" id="readOut"> (verb) </span>
+        <span class="outputs" id="booksOut">(noun)</span> and
+        <span class="outputs" id="hobbyOut">(hobby)</span>. Until one day, she got caught in a
+        <span class="outputs" id= "disasterOut">(disaster)</span> and
+        <span class="outputs" id= "motionOut"> (motion verb) </span> all the way to
+        <span class="outputs" id="locationOut">(location)</span>. There, she met many other
+        <span class="outputs" id= "friendsOut">(noun)</span>, like a
+        <span class="outputs" id="adj1Out">(adj)</span>
+        <span id= "friend1Out">(noun)</span>, and a
+        <span class="outputs" id= "greenfriendOut">(adj)</span>
+        <span id= "friend2Out">(noun)</span>. She met a
+        <span id="adjpinkOut">(adj)</span> and
+        <span id="adj2Out">(adj)</span> butterfly, and they became
+        <span id="relationOut">(relationship) </span> forever, since they both loved
+        <span id="thingOut">(thing)</span> and
+        <span id="rainbowOut">(noun)</span> and public speaking.</p>
 </div>
 </body>
 <style>
@@ -62,10 +70,24 @@
         color:green;
         font-family: Rockwell;
     }
+    #wholetext{
+        display: none;
+    }
+    span.outputs{
+        color:blue;
+        font-size:large;
+    }
 </style>
 
 <script>
+    if(animalInput.value.text == text){
+
+
     function madlibs() {
+
+
+
+
 
         let animalInput = document.getElementById("animalInput");
         document.getElementById("animalOut").innerHTML = animalInput.value;
@@ -133,6 +155,10 @@
         let rainbowInput = document.getElementById("rainbowInput");
         document.getElementById("rainbowOut").innerHTML = rainbowInput.value;
 
+
+            document.getElementById("wholetext").style.display="block";
+            document.getElementById("libs").style.display="none";
     }
+        }
 </script>
 </html>

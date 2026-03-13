@@ -80,7 +80,6 @@
 </style>
 
 <script>
-    if(animalInput.value.text == text){
 
 
     function madlibs() {
@@ -155,10 +154,13 @@
         let rainbowInput = document.getElementById("rainbowInput");
         document.getElementById("rainbowOut").innerHTML = rainbowInput.value;
 
+        if(animalInput.value != "" && nameInput.value != "" && plantInput !="" && actionInput !="" && hobbyInput !="" &&
+            disasterInput !="" && motionInput !="" && moodInput !="" && joyInput !=""&& readInput !=""&& booksInput !=""
+            && locationInput !=""&& friendsInput !=""&& adj1Input !=""&& friend1Input !=""&& greenfreindinputInput !=""
+            && freind2Input !="" && adjpinkInput !="" && adj2Input !="" && relationInput !=""
+            && thingInput !="" && rainbowInput !=""{
 
             document.getElementById("wholetext").style.display="block";
-            document.getElementById("libs").style.display="none";
-    }
-        }
+            document.getElementById("libs").style.display="none"; } }
 </script>
 </html>

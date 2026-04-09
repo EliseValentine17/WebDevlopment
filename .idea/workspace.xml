@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f7ad17-d0aa-4fe4-afef-f326bd826ae6" name="Changes" comment="More CSS">
+    <list default="true" id="b7f7ad17-d0aa-4fe4-afef-f326bd826ae6" name="Changes" comment="Hi!">
+      <change afterPath="$PROJECT_DIR$/todo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/madlibs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/madlibs/index.html" afterDir="false" />
     </list>
@@ -13,11 +14,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
@@ -25,6 +34,27 @@
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Hi!">
+      <option name="closed" value="true" />
+      <created>1773406732657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773406732657</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hi!">
+      <option name="closed" value="true" />
+      <created>1773406819932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773406819932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hi!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hi!" />
   </component>
 </project>

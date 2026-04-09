@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+</head>
+<body style="background-color: pink;">
+ <h1>
+Add a task
+
+ </h1>
+ <p> Task:<input id="taskPlace" type="text"></p>
+ <button onclick="addTask()">add</button>
+ <h1>
+     To-Do List:
+ </h1>
+
+    <div id="tasks" style="list-style:none">
+
+<!--    <div class="tasks"><input type="checkbox"><span class="taskName">task 1</span> </div>-->
+<!--    <div class="tasks"> <input type="checkbox" > <span class="taskName">task 2</span></div>-->
+<!--    <div class="tasks"> <input type="checkbox"><span class="taskName">task 3</span></div>-->
+
+    </div>
+
+</body>
+
+<style>
+
+
+    h1{
+        font-size: 2rem;
+        color:limegreen;
+        font-family: "Andale Mono";
+
+    }
+    body { font-size: 15px;
+        color: deeppink;
+        font-family: "Adelle Sans Devanagari";
+        text-align: center;
+        background-color: #024fd6;
+    }
+
+ div.taskPlace>input{
+
+     margin:20px;
+        font-size: 23px;
+        color: deeppink;
+        font-family: "Adelle Sans Devanagari";
+     background-color: white;
+    }
+
+    #tasks{
+        margin-left:20px;
+    }
+
+
+    div.tasks:has(input[type="checkbox"]:checked) + span{
+    text-align: center;
+        font-size: 15px;
+        color: deeppink;
+        font-family: "Adelle Sans Devanagari";
+        border-radius: 10px;
+        background-color: aqua;
+        /*width: 60%;*/
+
+
+
+    }
+
+    input[type=checkbox]:checked+span{
+        color:hotpink;
+
+    }
+    div:has(input[type=checkbox]:checked)
+    {
+    background-color: #ffa4e8;
+    }
+
+
+</style>
+
+<script>
+    function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        let expires = "expires="+ d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i <ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    function addTask(){
+        if(taskPlace.value !=""){
+
+            document.cookie=taskPlace.value;
+
+           let taskName = document.getElementById("taskPlace").value;
+
+           console.log(taskPlace);
+
+           let newDIV = document.createElement("div")
+           document.getElementById("tasks").appendChild(newDIV);
+
+           let checkbox = document.createElement("input");
+           checkbox.type = "checkbox";
+           newDIV.appendChild(checkbox);
+
+           let NewSpan = document.createElement("span");
+           NewSpan.setAttribute("taskName", "class");
+           NewSpan.innerText = taskName;
+           newDIV.appendChild(NewSpan);
+
+           let destroy= document.createElement("span");
+           destroy.className="delete"
+          destroy.innerText= "delete"
+          destroy.style.float = "right"
+          destroy.addEventListener("click", deleteTask)
+          newDIV.appendChild(destroy)
+
+
+
+
+
+    taskPlace.value = "";
+    taskPlace.focus()
+
+       }
+        function deleteTask(e){
+    console.log(e)
+            e.target.parentElement.remove();
+        }
+    }
+
+
+</script>
+</html>

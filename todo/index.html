@@ -9,7 +9,7 @@
 Add a task
 
  </h1>
- <p> Task:<input id="taskPlace" type="text"></p>
+ <label for =taskPlace> Task:<input id="taskPlace" type="text"></label>
  <button onclick="addTask()">add</button>
  <h1>
      To-Do List:
@@ -21,7 +21,9 @@ Add a task
 <!--    <div class="tasks"> <input type="checkbox" > <span class="taskName">task 2</span></div>-->
 <!--    <div class="tasks"> <input type="checkbox"><span class="taskName">task 3</span></div>-->
 
+
     </div>
+
 
 </body>
 
@@ -103,16 +105,18 @@ Add a task
         }
         return "";
     }
+
     function addTask(){
         if(taskPlace.value !=""){
 
-            document.cookie=taskPlace.value;
 
-           let taskName = document.getElementById("taskPlace").value;
 
-           console.log(taskPlace);
+        let taskInput = document.getElementById("taskPlace");
+           let taskName = taskInput.value;
+
 
            let newDIV = document.createElement("div")
+            newDIV.className = "taskPlace";
            document.getElementById("tasks").appendChild(newDIV);
 
            let checkbox = document.createElement("input");
@@ -131,7 +135,7 @@ Add a task
           destroy.addEventListener("click", deleteTask)
           newDIV.appendChild(destroy)
 
-
+            setCookie("taskPlace",getCookie("taskPlace")+ "|" + taskName,15);
 
 
 
@@ -143,8 +147,14 @@ Add a task
     console.log(e)
             e.target.parentElement.remove();
         }
+
     }
-
-
+    let currentCookie=getCookie("taskPlace");
+    currentCookie=currentCookie.split("|");
+    console.log(currentCookie);
+    for(let i=0;i<currentCookie.length; i=i+1){
+        console.log(currentCookie[i]);
+    }
+     document.getElementById("currentCookie").innerHTML=getCookie("currentCookie");
 </script>
 </html>

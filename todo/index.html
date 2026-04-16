@@ -9,8 +9,8 @@
 Add a task
 
  </h1>
- <label for =taskPlace> Task:<input id="taskPlace" type="text"></label>
- <button onclick="addTask()">add</button>
+ <label for =taskPlace> Task:<input class="thing" id="taskPlace" type="text"></label>
+ <button onclick="newTask()">add</button>
  <h1>
      To-Do List:
  </h1>
@@ -30,54 +30,47 @@ Add a task
 <style>
 
 
-    h1{
-        font-size: 2rem;
-        color:limegreen;
-        font-family: "Andale Mono";
-
-    }
-    body { font-size: 15px;
-        color: deeppink;
-        font-family: "Adelle Sans Devanagari";
-        text-align: center;
-        background-color: #024fd6;
+    body {
+        font-family: Lucida Console, "Courier New";
+        background-color: #ffa4e8;
+        margin: 25px;
+        color: #026502;
     }
 
- div.taskPlace>input{
-
-     margin:20px;
-        font-size: 23px;
-        color: deeppink;
-        font-family: "Adelle Sans Devanagari";
-     background-color: white;
+    div.taskPlace > input {
+        margin-right: 15px;
     }
 
-    #tasks{
-        margin-left:20px;
+    #tasks {
+        margin-left: 25px;
     }
-
-
-    div.tasks:has(input[type="checkbox"]:checked) + span{
-    text-align: center;
-        font-size: 15px;
-        color: deeppink;
-        font-family: "Adelle Sans Devanagari";
+    .thing {
+        background-color: #ffa2d5;
+        color: #18a818;
+    }
+    div.taskPlace {
+        background-color: lightgreen;
+        width: 80%;
+        margin-bottom: 10px;
+        padding: 15px;
         border-radius: 10px;
-        background-color: aqua;
-        /*width: 60%;*/
-
-
-
     }
 
-    input[type=checkbox]:checked+span{
-        color:hotpink;
+    div.important{
+        color: #0cf9ff;
+        background-color: #ff15fb;
+    }
 
+    input[type='checkbox']:checked + span {
+        color: #ff15ad;
+        text-decoration: line-through;
     }
-    div:has(input[type=checkbox]:checked)
-    {
-    background-color: #ffa4e8;
+
+    div.taskPlace:has(input[type='checkbox']:checked) {
+        background-color: #0c681e;
     }
+
+
 
 
 </style>
@@ -106,13 +99,20 @@ Add a task
         return "";
     }
 
-    function addTask(){
-        if(taskPlace.value !=""){
+    function newTask(){
+       let taskInput=document.getElementById("taskPlace");
+        let taskName= taskInput.value
 
+        if(taskName == ""){
+            return false;
+        }
+        console.log(taskName);
+        setCookie("taskPlace", getCookie("taskPlace") + "|" + taskName, 15);
+        addTask(taskName);
 
+    }
 
-        let taskInput = document.getElementById("taskPlace");
-           let taskName = taskInput.value;
+    function addTask(taskName) {
 
 
            let newDIV = document.createElement("div")
@@ -135,7 +135,14 @@ Add a task
           destroy.addEventListener("click", deleteTask)
           newDIV.appendChild(destroy)
 
-            setCookie("taskPlace",getCookie("taskPlace")+ "|" + taskName,15);
+        let important= document.createElement("span");
+        important.className="Star"
+        important.innerText= "⭐"
+        important.style.float = "left"
+        important.addEventListener("click", importantTask)
+        newDIV.appendChild(important)
+
+            // setCookie("taskPlace",getCookie("taskPlace")+ "|" + taskName,15);
 
 
 
@@ -143,18 +150,25 @@ Add a task
     taskPlace.focus()
 
        }
+
+       function importantTask(){
+        console.log("important");
+           var element = document.getElementById("taskPlace");
+           element.classList.add("important");
+       }
+
         function deleteTask(e){
     console.log(e)
             e.target.parentElement.remove();
         }
 
-    }
+
     let currentCookie=getCookie("taskPlace");
     currentCookie=currentCookie.split("|");
     console.log(currentCookie);
     for(let i=0;i<currentCookie.length; i=i+1){
-        console.log(currentCookie[i]);
+        addTask(currentCookie[i]);
     }
-     document.getElementById("currentCookie").innerHTML=getCookie("currentCookie");
+    // currentCookie=getCookie("currentCookie");
 </script>
 </html>

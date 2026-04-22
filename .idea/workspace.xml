@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f7ad17-d0aa-4fe4-afef-f326bd826ae6" name="Changes" comment="Hi!">
+    <list default="true" id="b7f7ad17-d0aa-4fe4-afef-f326bd826ae6" name="Changes" comment="Todo">
+      <change afterPath="$PROJECT_DIR$/date/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/index.html" afterDir="false" />
     </list>
@@ -23,15 +24,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EliseValentine17&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EliseValentine17/WebDevlopment.git&quot;,
+    &quot;accountId&quot;: &quot;1cf2c34a-9a1c-4749-a030-2e7b6f23cca1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3CadP8qndMih1i0LgGCM91vvKLP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Hi!">
       <option name="closed" value="true" />
@@ -65,11 +104,32 @@
       <option name="project" value="LOCAL" />
       <updated>1776258044854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Todo">
+      <option name="closed" value="true" />
+      <created>1776355851943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776355851943</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7f7ad17-d0aa-4fe4-afef-f326bd826ae6" name="Changes" comment="Todo" />
+      <created>1776627589181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776627589181</updated>
+      <workItem from="1776627589595" duration="11000" />
+      <workItem from="1776656822921" duration="32228000" />
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hi!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hi!" />
+    <MESSAGE value="Todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo" />
   </component>
 </project>

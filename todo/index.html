@@ -151,10 +151,15 @@ Add a task
 
        }
 
-       function importantTask(){
-        console.log("important");
-           var element = document.getElementById("taskPlace");
-           element.classList.add("important");
+       function importantTask(e){
+        // console.log(e)
+           console.log(e.target.parentElement)
+           e.target.parentElement.classList.add("important");
+        // console.log("important");
+        //    // var element = document.getElementById("taskPlace");
+        //    // element.classList.add("important");
+        //    let root = document.taskPlace;
+        //    root.taskPlace += ' Important';
        }
 
         function deleteTask(e){

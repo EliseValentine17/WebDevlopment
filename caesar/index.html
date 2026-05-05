@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cipher</title>
+</head>
+<body>
+<p><label for="key"> Enter A Key:</label><input type="number" id="key"></p>
+<p><label for="message"> Enter Your message</label><input type="text" id="message"></p>
+<button onclick="encrypt()">Encrypt</button>
+<p id="words"></p>
+</body>
+
+<script>
+    function encrypt(){
+        let key= document.getElementById("key").value;
+        key=parseInt(key);
+        let message=document.getElementById("message").value;
+        message=message.toUpperCase();
+
+        let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        let words=""
+
+        for(let i=0;i<message.length;i=i+1) {
+            let charLocation= chars.indexOf(message[i]);
+
+            let newLocation= charLocation+ key;
+             newLocation=newLocation % chars.length;
+
+            let newText= chars[newLocation];
+
+            if (charLocation === -1){
+                words= words + message[i]
+            } else{
+                words= words + newText
+            }
+            // words= words+ newText;
+            if(newLocation >= chars.length){
+                newLocation=newLocation-chars.length
+            }
+            console.log(words);
+        }
+        document.getElementById("words").innerText=words;
+    }
+</script>
+</html>

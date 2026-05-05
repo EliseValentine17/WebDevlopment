@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <title>Cipher</title>
+</head>
+<body>
+<h1>Text Reverser</h1>
+<p><label for="key"> Enter A Key</label> <input type="text" id="key"></p>
+<p><label for="text"> Enter Text</label> <input type="text" id="text"></p>
+
+<button onclick="encode()">Encode</button>
+<p id="rev"></p>
+
+</body>
+<style>
+    h1{
+        color: lightseagreen;
+        font-family: Copperplate;
+    }
+    p{
+        color:green;
+        font-family: Rockwell;
+    }
+
+ input{
+     color: lightseagreen;
+     font-family: "Courier New", Courier, monospace;
+ }
+</style>
+
+<script>
+  function encode() {
+
+    let key = document.getElementById("key").value;
+
+    let text = document.getElementById("text").value;
+    text=text.toUpperCase();
+    const str = text;
+    console.log(text);
+    const rev = str.split("").reverse().join("");
+    console.log(rev);
+
+    document.getElementById("rev").innerText=rev;
+
+  }
+
+</script>
+</html>

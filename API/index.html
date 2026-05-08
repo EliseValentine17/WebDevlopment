@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music</title>
+</head>
+<body>
+<h1>Music</h1>
+<p>Title: <span id="show"></span></p>
+<p>Number Of Listeners: <span id="count"></span></p>
+</body>
+
+
+
+
+
+<script>
+  let url= "https://api.mixcloud.com/spartacus/party-time/?_gl=1*1t45q1p*_gcl_au*MTg3MjYyMjk1Ni4xNzc4MDI5ODcx*_ga*MTU3NTM1MjI1My4xNzc4MDI5ODc5*_ga_F1JH45MWZ3*czE3NzgwODEzMjQkbzIkZzEkdDE3NzgwODEzMjUkajU5JGwwJGg5MDMzODgyOTc.*_fplc*JTJGYlMxenV2czJsZGZ6VklkMVFzcVJOZ3glMkZUJTJGR2l5NUtGeHdYJTJGZDludUQ5WE5sTDYzJTJGJTJGdGVlQWowcGk5RHpMYjNyNGxRQUYwZm9YJTJCczZhM1M4MEx0c3BVSjg4eFpZbWcwTG5wY2syNmNXRXBWbjlvb1JUdkp6eEtOYlRtTHclM0QlM0Q."
+ fetch(url).then(function(response) {
+   if (!response.ok) throw new Error("Music could not be ok");
+   return response.json();
+ }).then(function(data){
+   console.log(data)
+   document.getElementById("show").innerHTML=data.name;
+   document.getElementById("count").innerHTML=data.listener_count;
+ }).then (function(error){
+   console.error("fetch error:", error);
+
+    console.log(response)
+  })
+</script>
+</html>
